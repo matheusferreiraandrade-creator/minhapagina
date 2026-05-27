@@ -1,1 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.cabecalho {
+    background-color: #0f2649;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.titulo-site {
+    font-size: 60px;
+}
+
+.sociais img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+/* BANNER */
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    width: 100%;
+    max-height: none;
+    object-fit: auto;
+}
+
+/* ALUNOS */
+.estudante {
+    background-color: #76caff;
+    padding: 30px;
+}
+
+.estudante-titulo {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+/* GRID */
+.estudantes-todos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+
+/* CARD */
+.estudante-div {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(194, 194, 194, 0.2);
+}
+
+.estudante-imagem {
+    width: 100px;
+}
+
+.icones img {
+    width: 25px;
+    margin: 5px;
+}
+
+/* RODAPÉ */
+.rodape {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
