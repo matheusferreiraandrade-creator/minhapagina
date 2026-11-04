@@ -49,6 +49,7 @@ padding-right: 30px;
 .banner1{
 display: flex;
 justify-content: center;
+height:500px;
 }
 .estudante_titulo{
 padding: 50px;
@@ -95,6 +96,14 @@ text-align: center;
 height: 80px;
 padding: 12px 0;
 
+}
+
+.sobre
+{
+  width: 80%;
+  justify-self: center;
+  font-size: 200%;
+  color: white;
 }
 
 .link{
