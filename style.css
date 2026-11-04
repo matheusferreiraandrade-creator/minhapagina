@@ -59,6 +59,11 @@ color: white;
 .estudante-nome{
 text-align: center
 }
+
+.escola-image
+{
+  border-radius: 10px;
+}
 .estudante-imagem{
 width: 120px;
 }
